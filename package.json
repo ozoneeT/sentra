@@ -1,0 +1,12 @@
+{
+  "name": "sentra-sentrafi-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local static server for the mirrored www.sentrafi.xyz site (needed because browsers block ES module scripts/CSS over file://).",
+  "scripts": {
+    "serve": "serve www.sentrafi.xyz -l 5175"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
