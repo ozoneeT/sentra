@@ -1,0 +1,14 @@
+[build]
+  publish = "www.sentrafi.xyz"
+
+[[redirects]]
+  from = "/www.sentrafi.xyz/*"
+  to = "/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/www.sentrafi.xyz"
+  to = "/"
+  status = 301
+  force = true
